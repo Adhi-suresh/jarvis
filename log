@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajaj</title>
+    <link rel="stylesheet" href="bajaj.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        .main-body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: #090000;
+            
+            margin-top: 10px;
+            border-radius: 25px;
+        }
+
+        .card {
+            margin: 10px;
+            flex-basis: 30%;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background-color: rgb(33, 33, 1);
+            opacity: 99%;
+            color: white;
+
+
+
+        }
+
+        .card-body {
+            margin-top: auto;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                flex-basis: 45%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .card {
+                flex-basis: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body> 
+
+
+    <body class="bg-warm text-black">
+        <div class="header">
+            <p class="h1 d-flex justify-content-center align-items-center">MOTO RIDER GALLERY</p>
+        </div>
+        <div class="container">
+            <div class="navbar-list">
+                <nav class="sticky-top">
+                    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-dark rounded-5 shadow-sm" id="pillNav2"
+                        role="tablist"
+                        style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                        <li class="nav-item" role="presentation">
+                            <a href="file:///C:/Users/adhis/OneDrive/Desktop/project/home2.html" target="_blank"
+                                class="nav-link rounded-5" id="home-tab2" type="button" role="tab" aria-selected="true">
+                                <h4><i class="fa-solid fa-house"></i> HOME</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a href="Bajaj.html" target="_blank"
+                                class="nav-link rounded-5" id="home-tab2" type="button" role="tab" aria-selected="true">
+                                <h4> BAJAJ</h4>
+                            </a>
+                        </li>
+                        
+                            
+                        <li class="nav-item" role="presentation">
+                            <a href="Royal.html" target="_blank"
+                                class="nav-link rounded-5" id="home-tab2" type="button" role="tab" aria-selected="true">
+                                <h4> ENFIELD</h4>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a href="yamaha.html" target="_blank"
+                                class="nav-link rounded-5" id="home-tab2" type="button" role="tab" aria-selected="true">
+                                <h4> YAMAHA</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a href="login.html" target="_blank"
+                                class="nav-link rounded-5" id="home-tab2" type="button" role="tab" aria-selected="true">
+                                <h4> LOGIN</h4>
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        
+
+        <div class="container">
+            <div class="main-body">
+                <div class="card">
+                    <img src="./bajajbike/150.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bajaj Pulser 150</h5>
+                        <a href="login.html" target="_blank" class="btn btn-primary">Buynow
+                            Rs:1,39,999/only</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./bajajbike/RS_200.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bajaj RS200</h5>
+                        <a href="login.html" target="_blank" class="btn btn-primary">Buynow
+                            Rs:1,69,000/only</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./bajajbike/220.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulser 220F</h5>
+                        <a href="login.html" target="_blank" class="btn btn-primary">Buynow
+                            Rs:149,999/only</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./bajajbike/n150.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulser N150</h5>
+                        <a href="login.html" target="_blank" class="btn btn-primary">Buynow
+                            Rs:1,09,999/only</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./bajajbike/ns125.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulser NS125</h5>
+                        <a href="login.html" target="_blank" class="btn btn-primary">Buynow
+                            Rs:98,999/only</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./bajajbike/ns160.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulser NS160</h5>
+                        <a href="login.html" target="_blank" class="btn btn-primary">Buynow
+                            Rs:1,29,999/only</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./bajajbike/ns200red.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulser NS200</h5>
+                        <a href="login.html" target="_blank" class="btn btn-primary">Buynow
+                            Rs:1.69,999/only</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./bajajbike/Pulsar NS-400.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulser NS-400</h5>
+                        <a href="login.html" target="_blank"
+                            class="btn btn-primary">Buynow:1,99,999/only</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./bajajbike/Pulsar NS200.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulser NS200</h5>
+                        <a href="login.html" target="_blank"  class="btn btn-primary">Buynow
+                            Rs:1,69,999/only</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer ">
+            <nav class="bg-primary ">
+                <div class=" mt-3  ">
+                    <div class="col d-flex align-items-center justify-content-center mt-2 list-inline bg-dark pt-2 ">
+                        <li class="">
+                            <ul class="list-inline-item"><a class="text-decoration-none text-white" href="#"><i
+                                        class="fa-solid fa-language"></i> language: English Tamil Kannada</a></ul>
+                            <ul class="list-inline-item"><a class="text-decoration-none text-white" href="#">About
+                                    Us</a></ul>
+                            <ul class="list-inline-item"><a class="text-decoration-none text-white"
+                                    href="#">Advertise</a></ul>
+                        </li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-4">
+                        <li class="list-inline">
+                            <ul class=""><a class="text-decoration-none text-white" href="#">
+                                    <h4>Bajaj</h4>
+                                </a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#NS400</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#NS200</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#RS200</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Pulser150</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Pulser220</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Discover</a></ul>
+                        </li>
+                    </div>
+                    <div class="col mt-4">
+                        <li class="list-inline">
+                            <ul class=""><a class="text-decoration-none text-white" href="#">
+                                    <h4>Royal Enfield</h4>
+                                </a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Royal Enfield
+                                    Himalayan</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Royal Enfield Interceptor
+                                    650</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Royal Enfield Interceptor
+                                    650</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Royal Enfield Bullet
+                                    350</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Royal Enfield Super Meteor
+                                    650</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Royal Enfield Scram
+                                    411</a></ul>
+                        </li>
+                    </div>
+                    <div class="col mt-4 mb-4">
+                        <li class="list-inline">
+                            <ul class=""><a class="text-decoration-none text-white" href="#">
+                                    <h4>Yamaha</h4>
+                                </a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Yamaha FZ-X</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Yamaha FZ-S</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Yamaha MT 15 V2</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Yamaha R15S</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Yamaha R15 V4</a></ul>
+                            <ul class=""><a class="text-decoration-none text-white" href="#">#Yamaha MT 15 V2</a></ul>
+                        </li>
+                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <div class="col d-flex  align-items-center justify-content-center bg-dark pt-2  ">
+                        
+                        <ul class="list-inline-item"><a class="text-decoration-none text-white" href="#">
+                             Contect Us In</a></ul>
+                            <ul class="list-inline-item"><a class="text-decoration-none text-white" href="#"><i
+                                        class="fa-brands fa-instagram"></i> InstaGram</a></ul>
+                            <ul class="list-inline-item"><a class="text-decoration-none text-white" href="#"><i
+                                        class="fa-brands fa-whatsapp"></i> WhatsApp</a></ul>
+                            <ul class="list-inline-item"><a class="text-decoration-none text-white" href="#"><i
+                                        class="fa-brands fa-facebook"></i> Facebook</a></ul>
+                            <ul class="list-inline-item"><a class="text-decoration-none text-white" href="#"><i
+                                        class="fa-brands fa-twitter"></i> Twitter</a></ul>
+                            <ul class="list-inline-item"><a class="text-decoration-none text-white" href="#"><i
+                                        class="fa-regular fa-copyright"></i> All Rights Reserved</a></ul>
+                        </li>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+</body>
+
+</html>
